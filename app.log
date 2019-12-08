@@ -1,0 +1,52 @@
+{"message":"::1 - - [08/Dec/2019:06:38:34 +0000] \"GET /users HTTP/1.1\" 200 23 \"-\" \"PostmanRuntime/7.20.1\"\n","level":"info"}
+{"message":"::1 - - [08/Dec/2019:06:38:44 +0000] \"GET /users HTTP/1.1\" 200 23 \"-\" \"PostmanRuntime/7.20.1\"\n","level":"info"}
+{"message":"::1 - - [08/Dec/2019:06:44:15 +0000] \"GET /users HTTP/1.1\" 200 23 \"-\" \"PostmanRuntime/7.20.1\"\n","level":"info"}
+{"message":"::1 - - [08/Dec/2019:06:44:45 +0000] \"GET /users HTTP/1.1\" 500 980 \"-\" \"PostmanRuntime/7.20.1\"\n","level":"info"}
+{"message":"::1 - - [08/Dec/2019:06:46:02 +0000] \"GET /users HTTP/1.1\" 500 980 \"-\" \"PostmanRuntime/7.20.1\"\n","level":"info"}
+{"level":"error"}
+{"message":"::1 - - [08/Dec/2019:06:46:35 +0000] \"GET /users HTTP/1.1\" 500 980 \"-\" \"PostmanRuntime/7.20.1\"\n","level":"info"}
+{"message":"logger is not defined","level":"error"}
+{"message":"::1 - - [08/Dec/2019:06:47:08 +0000] \"GET /users HTTP/1.1\" 500 980 \"-\" \"PostmanRuntime/7.20.1\"\n","level":"info"}
+{"message":"::1 - - [08/Dec/2019:07:01:20 +0000] \"GET /users HTTP/1.1\" 500 2217 \"-\" \"PostmanRuntime/7.20.1\"\n","level":"info"}
+{"message":"::1 - - [08/Dec/2019:07:02:24 +0000] \"GET /users HTTP/1.1\" 500 980 \"-\" \"PostmanRuntime/7.20.1\"\n","level":"info"}
+{"message":"::1 - - [08/Dec/2019:07:02:40 +0000] \"GET /users HTTP/1.1\" 500 980 \"-\" \"PostmanRuntime/7.20.1\"\n","level":"info"}
+{"message":"(app.js:40) logger is not defined","level":"error"}
+{"message":"::1 - - [08/Dec/2019:07:03:43 +0000] \"GET /users HTTP/1.1\" 500 980 \"-\" \"PostmanRuntime/7.20.1\"\n","level":"info"}
+{"message":"(routes\\users.js:10) /users","level":"info"}
+{"message":"::1 - - [08/Dec/2019:07:05:05 +0000] \"GET /users HTTP/1.1\" 200 23 \"-\" \"PostmanRuntime/7.20.1\"\n","level":"info"}
+{"message":"(routes\\users.js:10) /users","level":"info"}
+{"email":"test@domain.com","id":"5dea3d9f08484452a0f80d66","exp":1580968351,"iat":1575784351,"level":"info","message":"(routes\\users.js:12)"}
+{"message":"::1 - - [08/Dec/2019:07:05:43 +0000] \"GET /users HTTP/1.1\" 200 23 \"-\" \"PostmanRuntime/7.20.1\"\n","level":"info"}
+{"message":"(routes\\users.js:10) /users","level":"info"}
+{"level":"info","message":{"email":"test@domain.com","id":"5dea3d9f08484452a0f80d66","exp":1580968351,"iat":1575784351}}
+{"message":"::1 - - [08/Dec/2019:07:07:40 +0000] \"GET /users HTTP/1.1\" 200 23 \"-\" \"PostmanRuntime/7.20.1\"\n","level":"info"}
+{"message":"(routes\\users.js:10) /users","level":"info"}
+{"email":"test@domain.com","id":"5dea3d9f08484452a0f80d66","exp":1580968351,"iat":1575784351,"level":"info","message":"(routes\\users.js:12)"}
+{"message":"::1 - - [08/Dec/2019:07:08:15 +0000] \"GET /users HTTP/1.1\" 200 23 \"-\" \"PostmanRuntime/7.20.1\"\n","level":"info"}
+{"message":"(routes\\users.js:10) /users","level":"info"}
+{"email":"test@domain.com","id":"5dea3d9f08484452a0f80d66","exp":1580968351,"iat":1575784351,"level":"info","message":"(routes\\users.js:12)"}
+{"message":"::1 - - [08/Dec/2019:07:11:04 +0000] \"GET /users HTTP/1.1\" 200 23 \"-\" \"PostmanRuntime/7.20.1\"\n","level":"info"}
+{"message":"(routes\\users.js:10) /users","level":"info"}
+{"email":"test@domain.com","id":"5dea3d9f08484452a0f80d66","exp":1580968351,"iat":1575784351,"level":"info","message":"(routes\\users.js:12)"}
+{"message":"::1 - - [08/Dec/2019:07:11:49 +0000] \"GET /users HTTP/1.1\" 200 23 \"-\" \"PostmanRuntime/7.20.1\"\n","level":"info"}
+{"message":"(routes\\users.js:10) /users","level":"info"}
+{"email":"test@domain.com","id":"5dea3d9f08484452a0f80d66","exp":1580968351,"iat":1575784351,"level":"info","message":"(routes\\users.js:12)"}
+{"message":"::1 - - [08/Dec/2019:07:12:13 +0000] \"GET /users HTTP/1.1\" 200 23 \"-\" \"PostmanRuntime/7.20.1\"\n","level":"info"}
+{"message":"(routes\\users.js:10) /users","level":"info"}
+{"email":"test@domain.com","id":"5dea3d9f08484452a0f80d66","exp":1580968351,"iat":1575784351,"level":"info","message":"(routes\\users.js:12)"}
+{"message":"::1 - - [08/Dec/2019:07:19:57 +0000] \"GET /users HTTP/1.1\" 200 23 \"-\" \"PostmanRuntime/7.20.1\"\n","level":"info"}
+{"message":"(routes\\users.js:10) /users","level":"info"}
+{"email":"test@domain.com","id":"5dea3d9f08484452a0f80d66","exp":1580968351,"iat":1575784351,"level":"info","message":"(routes\\users.js:12)"}
+{"message":"::1 - - [08/Dec/2019:07:21:13 +0000] \"GET /users HTTP/1.1\" 200 23 \"-\" \"PostmanRuntime/7.20.1\"\n","level":"info"}
+{"message":"(routes\\users.js:10) /users","level":"info"}
+{"email":"test@domain.com","id":"5dea3d9f08484452a0f80d66","exp":1580968351,"iat":1575784351,"level":"info","message":"(routes\\users.js:12)"}
+{"message":"::1 - - [08/Dec/2019:07:21:50 +0000] \"GET /users HTTP/1.1\" 200 23 \"-\" \"PostmanRuntime/7.20.1\"\n","level":"info"}
+{"message":"(routes\\users.js:10) /users","level":"info"}
+{"email":"test@domain.com","id":"5dea3d9f08484452a0f80d66","exp":1580968351,"iat":1575784351,"level":"info","message":"(routes\\users.js:12)"}
+{"message":"::1 - - [08/Dec/2019:07:23:08 +0000] \"GET /users HTTP/1.1\" 200 23 \"-\" \"PostmanRuntime/7.20.1\"\n","level":"info"}
+{"message":"(routes\\users.js:10) /users","level":"info"}
+{"email":"test@domain.com","id":"5dea3d9f08484452a0f80d66","exp":1580968351,"iat":1575784351,"level":"info","message":"(routes\\users.js:12)"}
+{"message":"::1 - - [08/Dec/2019:07:53:50 +0000] \"GET /users HTTP/1.1\" 200 23 \"-\" \"PostmanRuntime/7.20.1\"\n","level":"info"}
+{"message":"(routes\\users.js:10) /users","level":"info"}
+{"level":"info","message":{"email":"test@domain.com","id":"5dea3d9f08484452a0f80d66","exp":1580968351,"iat":1575784351}}
+{"message":"::1 - - [08/Dec/2019:07:54:17 +0000] \"GET /users HTTP/1.1\" 200 23 \"-\" \"PostmanRuntime/7.20.1\"\n","level":"info"}

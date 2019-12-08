@@ -1,5 +1,7 @@
 const User = require('../models/user');
+const passport = require('passport');
 const crypto = require('crypto');
+const jwt = require('jsonwebtoken');
 
 const encryptString = (string) => {
     let salt = crypto.randomBytes(16).toString('hex');
@@ -10,9 +12,9 @@ const encryptString = (string) => {
     }
 }
 
-const validatePassword = (password, salt) => {
-    const hash = crypto.pbkdf2Sync(password, salt, 1000, 512, 'sha512').toString('hex');
-    return password === hash;
+const validatePassword = (password, user) => {
+    const hash = crypto.pbkdf2Sync(password, user.salt, 1000, 512, 'sha512').toString('hex');
+    return user.password === hash;
 }
 
 const generateJWT = (user) => {
@@ -27,11 +29,11 @@ const generateJWT = (user) => {
     }, 'secret');
 }
 
-const toAuthJSON = () => {
+const toAuthJSON = (user) => {
     return {
         _id: user._id,
         email: user.email,
-        token: this.generateJWT()
+        token: generateJWT(user)
     }
 }
 
@@ -47,6 +49,19 @@ module.exports = {
         user = await User.create(user);
         console.log(user);
         return user;
+    },
+
+    findByEmail: async (email) => {
+        
+        let user = await User.findOne({email:email});
+        return user;
+    },
+    authenticate: async (user)=>{
+        console.log(user);
+        return passport.authenticate('local', (err, user, info)=>{
+            console.log(user);
+            return user;
+        })({body: user});
     },
     encryptString: encryptString,
     validatePassword: validatePassword,
